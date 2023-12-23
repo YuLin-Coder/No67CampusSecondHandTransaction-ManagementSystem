@@ -1,0 +1,146 @@
+.topbar-head {
+    background-color: #10aa9c;
+    position: relative;
+}
+
+.topbar-left {
+    float: left;
+}
+
+.topbar-right {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    width: 420px;
+}
+
+    .topbar-right .topbar-item-info {
+        background: #10aa9c none repeat scroll 0 0;
+        display: block;
+        height: 50px;
+        padding: 0 10px;
+        margin-right: 1px;
+        line-height: 50px;
+        color: #fff;
+        float: right;
+        min-width: 60px;
+    }
+
+.white {
+    color: #fff;
+}
+
+
+.viewframework-body {
+    bottom: 0;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+
+.sidebar-content {
+    background-color: #10aa9c;
+    bottom: 0;
+    overflow-x: hidden;
+    position: fixed;
+    top: 50px;
+    width: 210px;
+    display: block;
+    scrollbar-arrow-color: #f4ae21; /*ͼ6,���Ǽ�ͷ����ɫ*/
+    scrollbar-face-color: #333; /*ͼ5,�������������ɫ*/
+    scrollbar-3dlight-color: #666; /*ͼ1,������������ߵ���ɫ*/
+    scrollbar-highlight-color: #666; /*ͼ2,�������հײ��ֵ���ɫ*/
+    scrollbar-shadow-color: #999; /*ͼ3,�����������Ӱ����ɫ*/
+    scrollbar-darkshadow-color: #666; /*ͼ4,���������ǿ��Ӱ����ɫ*/
+    scrollbar-track-color: #666; /*ͼ7,���������������ɫ*/
+    scrollbar-base-color: #f8f8f8; /*�������Ļ�����ɫ*/
+}
+
+.sidebar-item {
+}
+
+.sidebar-title {
+    -moz-user-select: none;
+    background: #43c3b8 none repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    border: 1px solid #10aa9c;
+}
+.sidebar-title-icon {
+    display: inline-block;
+    margin: 0 8px 0 20px;
+    transition: transform 0.12s ease 0s;
+    vertical-align: middle;
+}
+
+.sidebar-item ul {
+    list-style: outside none none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.sidebar-trans {
+    transition: all 0.12s ease 0s, all 0.12s ease 0s;
+}
+
+    .sidebar-trans li.active .sidebar-navtext {
+        background: #3ad4c7 none repeat scroll;
+    }
+
+.viewframework-sidebar .sidebar-item li .sidebar-navtext {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+}
+
+    .viewframework-sidebar .sidebar-item li .sidebar-navtext .nav-icon {
+        color: #fff;
+        float: left;
+        font-size: 16px;
+        text-align: center;
+        width: 50px;
+        padding-top:10px;
+    }
+
+.sidebar-navtext .nav-title {
+    color: #fff;
+    display: block;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 112px;
+}
+
+    .sidebar-navtext .nav-title a {
+        color: #fff;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 130px;
+    }
+
+.viewframework-contentpage {
+    left: 190px;
+    bottom: 0px;
+    background: #fff none repeat scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: auto;
+}
+
+.fn-clear::after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}

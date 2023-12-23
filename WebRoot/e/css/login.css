@@ -1,0 +1,364 @@
+/*登录注册页面的公用头部样式*/
+.login_header, .register_header {
+	width: 100%;
+	min-width: 1200px;
+	background: #fafafa;
+	height: 100px;
+}
+
+.login_header .header_center, .register_header .header_center {
+	width: 1200px;
+	margin: auto;
+}
+
+.login_header .myfl img, .register_header .header_center img {
+	margin-top: 20px;
+}
+
+.login_header .myfl span, .register_header .header_center .myfl span {
+	height: 40px;
+	line-height: 40px;
+	border-left: 1px solid #eaeaea;
+	color: #999;
+	font-size: 18px;
+	display: inline-block;
+	margin: 30px 0 0 30px;
+	padding-left: 30px;
+}
+/*登录头部样式*/
+.login_header .myfr {
+	margin-top: 40px;
+}
+
+.login_header .myfr span {
+	height: 12px;
+	width: 1px;
+	background: #bfbfbf;
+	margin: 0 16px;
+}
+
+.login_header .myfr a {
+	font-size: 12px;
+	color: #999;
+}
+/*登录内容区*/
+.login_content {
+	width: 1200px;
+	height: 500px;
+	padding-top: 100px;
+	margin: auto;
+	background: url("../images/login_bag.png?v=11") no-repeat 38px 178px;
+}
+
+.login_content .login_box {
+	width: 349px;
+	min-height: 388px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.login_content .login-box{
+	width: 349px;
+	min-height: 388px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.login_content  .login-box .title{
+	border-bottom: 1px solid #ccc;
+	background: #f2f3f7;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+}
+
+.login-input{
+
+	width: 298px;
+	height: 46px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	outline: none;
+	margin-left: 20px;
+	padding-left: 10px;
+	line-height: 46px;
+}
+
+.login-btn{
+	border: none;
+	padding-left: 0;
+	width: 310px;
+	height: 48px;
+	background: #188eee;
+	color: white;
+	margin: 20px;
+	cursor: pointer;
+	font-size: 18px;
+}
+.login-box .content{
+
+	padding:20px 5px;
+}
+.login-box .content .table-row{
+
+	margin-bottom:30px;
+
+}
+
+.login-box .content .usertype{
+
+	padding-left:40px;
+}
+
+.login_content .login_box .forget_password a {
+	display: inline-block;
+	margin-right: 20px;
+	color: #999999;
+	line-height: 24px;
+}
+
+.login_content .login_box .entry_mode {
+	margin: 0 20px;
+	color: #999;
+}
+
+.login_content .entry_mode a {
+	color: #999;
+}
+
+.login_content .entry_mode span {
+	line-height: 66px;
+}
+
+
+
+/*登录底部*/
+.login_bottom {
+	width: 1200px;
+	margin: auto;
+	text-align: center;
+	color: #999999;
+}
+/*注册头部*/
+.register_header {
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.register_header .header_center .myfr a {
+	color: #999;
+	float: left;
+}
+
+.register_header .header_center .myfr span {
+	height: 12px;
+	width: 1px;
+	background: #bfbfbf;
+	margin: 4px 16px 0 16px;
+	float: left;
+}
+
+.register_header .header_center .myfr {
+	margin-top: 40px;
+}
+
+.register_header .header_center .myfr em {
+	color: #ff366f;
+	margin-left: 4px;
+}
+/*注册内容区*/
+.register_content {
+	width: 1200px;
+	margin: auto;
+	padding-bottom: 60px;
+}
+
+.register_content .seller_register_title {
+	font-size: 34px;
+	color: #434343;
+	margin: 80px 0 0 84px;
+}
+
+.register_content .register_box {
+	width: 340px;
+}
+
+.register_content .register_box input {
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	outline: none;
+	padding-left: 38px;
+	margin-top: 14px;
+}
+
+.register_content .title {
+	height: 24px;
+	line-height: 24px;
+	margin: 48px auto 16px;
+}
+
+.register_content .title h1 {
+	font-size: 24px;
+	color: #333;
+	font-weight: normal;
+	width: 200px;
+	text-align: center;
+}
+
+.register_content .title span {
+	width: 70px;
+	height: 1px;
+	background: #ccc;
+	margin-top: 12px;
+}
+
+.register_content .register_box .username {
+	background: url("../images/advert/user_register_input1.png") no-repeat 14px
+		center;
+}
+
+.register_content .register_box .password {
+	background: url("../images/advert/user_register_input2.png") no-repeat 14px
+		center;
+}
+
+.register_content .register_box .password_again {
+	background: url("../images/advert/user_register_input2.png") no-repeat 14px
+		center;
+}
+
+.register_content .register_box .phone_num {
+	background: url("../images/advert/user_register_input3.png") no-repeat 14px
+		center;
+}
+
+.register_content .register_box .message_code_box {
+	position: relative;
+}
+
+.register_content .register_box .message_code {
+	background: url("../images/advert/user_register_input4.png") no-repeat 14px
+		center;
+}
+
+.register_content .register_box .message_code_again {
+	position: absolute;
+	display: none;
+	right: 0;
+	top: 14px;
+	width: 120px;
+	height: 42px;
+	background: #ccc;
+	color: #fff;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 42px;
+}
+
+.register_content .register_box .photo_code input {
+	background: url("../images/advert/user_register_input5.png") no-repeat 14px
+		center;
+}
+
+.register_content .register_box .qq_num {
+	background: url("../images/advert/user_register_input6.png") no-repeat 14px
+		center;
+}
+
+.register_content .register_box p {
+	color: red;
+	padding-left: 16px;
+	background: url("../images/advert/login_error_icon.png") no-repeat 0 center;
+	display: none;
+}
+
+.register_content .register_box .message_code {
+	width: 164px;
+}
+
+.register_content .register_box .message_code_btn {
+	display: inline-block;
+	width: 120px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	border-radius: 4px;
+	margin-top: 14px;
+	color: #fff;
+	cursor: pointer;
+	background: #ff366f;
+}
+
+.register_content .register_box .photo_code {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-top: 14px;
+}
+
+.register_content .register_box .photo_code input {
+	border: none;
+	width: 200px;
+	margin-top: 0;
+	height: 42px;
+	line-height: 42px;
+}
+
+.register_content .register_box .photo_code img {
+	width: 100px;
+	height: 42px;
+	cursor: pointer;
+}
+
+.register_content .register_box .source {
+	width: 340px;
+	height: 42px;
+	line-height: 42px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	outline: none;
+	padding-left: 38px;
+	margin-top: 14px;
+	background: url("../images/advert/user_register_input7.png") no-repeat 14px
+		center;
+}
+
+.register_content .register_box .my_agreement {
+	margin-top: 30px;
+	color: #666;
+}
+
+.register_content .register_box .my_agreement input {
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+	margin: -1px 10px 0 0;
+}
+
+.register_content .register_box .my_agreement a {
+	color: #ff366f;
+}
+
+.register_content .register_box .submit_btn {
+	display: inline-block;
+	text-align: center;
+	margin-top: 20px;
+	padding-left: 0;
+	width: 340px;
+	height: 42px;
+	font-size: 18px;
+	border: none;
+	border-radius: 4px;
+	background: #ff366f;
+	color: #fff;
+	line-height: 42px;
+}
+/*用户注册底部*/
+.register_bottom {
+	background: #fafafa;
+	text-align: center;
+	height: 68px;
+	line-height: 68px;
+	color: #999;
+}

@@ -1,0 +1,210 @@
+.whitebox {
+    background-color: #FFFFFF;
+    height: auto;
+    padding: 20px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+.whitebox h1 {
+    border-bottom: 1px solid #EEEEEE;
+    color: #444444;
+    font-size: 18px;
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+}
+.reg-box
+{
+    padding-bottom:0px;
+    margin:0 auto;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:0px;
+
+}
+
+.reg-title
+{
+
+}
+.reg-title ul
+{
+    border-bottom:#dadada 1px solid;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:0px;
+    padding-right:0px;
+    height:23px;
+
+}
+.reg-title ul li
+{
+
+    padding-left:10px;
+    padding-right:50px;
+    height:18px;
+    padding-bottom:0px;
+    padding-top:0px;
+    font:bold 18px "Miscrosoft Yahei";
+    float:left;
+
+}
+.reg-title ul li em
+{
+    padding-bottom:2px;
+    padding-top:2px;
+    padding-left:5px;
+    padding-right:5px;
+    font-family:Verdana,Geneva,sans-serif;
+    background:#999;
+    color:#fff;
+    font-size:12px;
+    margin-right:5px;
+
+}
+.step1 {
+    color: #FF6C1E;
+}
+.reg-title .step1 em {
+    background: none repeat scroll 0 0 #FF6C1E;
+}
+
+.current-step
+{
+    background:#ff6c1e !important;
+
+}
+.reg-content
+{
+
+}
+.reg-content dl
+{
+    padding-bottom:8px;
+    line-height:28px;
+    padding-left:0px;
+    padding-right:0px;
+    font-family:"Microsoft Yahei";
+    clear: both;
+    font-size:14px;
+    padding-top:8px;
+}
+.reg-content dt
+{
+    width:150px;
+    display:block;
+    float:left;
+
+}
+.reg-content dd
+{
+    margin-left:150px;
+    padding-left:0px;
+
+}
+
+.width250
+{
+    width:250px;
+}
+.msg-tip
+{
+    margin:30 auto;
+    position:relative;
+    width:380px;
+}
+
+.msg-tip .ico
+{
+    width:46px;
+    display:block;
+    background:url(../images/icon_tips.png) no-repeat left top;
+    float:left;
+    height:46px;
+    overflow:hidden;
+
+}
+.msg-tip  .text
+{
+    margin-left:60px;
+}
+
+.red-button {
+    background: none repeat scroll 0 0 #FF6C1E;
+    border: 1px solid #CF5413;
+    color: #FFFFFF;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+    line-height: 1em;
+    padding: 8px 20px;
+}
+
+.input {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CACACA;
+    font-size:18px;
+    font-weight:600;
+    font-family: "Microsoft YaHei";
+    line-height: 23px;
+    padding: 5px;
+    vertical-align: middle;
+}
+.ui-form-general {
+    padding-top: 50px;
+    padding-bottom:5px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: -moz-use-text-color #E7E7E7 #E7E7E7;
+}
+.ui-form-item
+{
+    font-family: tahoma,arial,Microsoft YaHei,Hiragino Sans GB,����;
+    position:relative;
+    padding: 0 5px 20px 130px;
+}
+.ui-form-item:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.ui-label {
+    color: #4C4C4C;
+    float: left;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: -130px;
+    margin-right: 10px;
+    padding-top: 7px;
+    text-align: right;
+    width: 130px;
+}
+.ui-form-item .ui-label
+{
+    color: #535353;
+    padding-top: 13px;
+    margin-left: -140px;
+    width: 140px;
+}
+
+.ui-input {
+    border: 1px solid #C1C1C1;
+    color: #343434;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    padding: 6px;
+    vertical-align: middle;
+    width: 170px;
+}
+.ui-form-item .ui-input {
+    color: #4D4D4D;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding: 11px 10px;
+    width: 310px;
+    margin-right: 6px;
+}
+

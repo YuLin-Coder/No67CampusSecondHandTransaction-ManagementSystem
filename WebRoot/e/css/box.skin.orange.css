@@ -1,0 +1,29 @@
+﻿/**主题框颜色*/
+.box .title {
+    border-bottom: 3px solid #f70 !important;
+    color: #188eee;
+    background-color:White;
+
+}
+/*标题*/
+.box .title strong
+{
+	color:#f70;
+}
+.box .content
+{
+	background-color:White;
+}
+
+.show-info .title {
+    border-bottom: 2px solid #f70 !important;
+    color: #f70 !important;
+}
+.show-info .title strong {
+    color: #f70 !important ;
+}
+.page-title {
+    background-color: #f6f6f6;
+    border: 1px solid #d9e3e5;
+    color: #f70 !important;
+}

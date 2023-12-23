@@ -1,0 +1,8 @@
+@import url(box.css); 
+@import url(list.css); 
+@import url(box.skin.blue.css);
+
+@import url(../../webui/bootstrap/css/bootstrap.css);
+@import url(../../webui/jquery-toast/jquery.toast.css);
+@import url(../../webui/bootstrap/css/font-awesome.css);
+@import url(../..//webui/jquery-confirm/jquery-confirm.css);

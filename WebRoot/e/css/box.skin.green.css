@@ -1,0 +1,75 @@
+/**主题框颜色*/
+.box .title {
+    border-bottom: 3px solid #04a219 !important;
+    color: #188eee;
+    background-color:White;
+
+}
+
+.box .title strong
+{
+	color:#fff;
+	background-color:#04a219;
+}
+.box .content
+{
+	background-color:White;
+}
+
+
+
+.blue-box .blue-box-title {
+    background: #04a219;
+ }
+.show-info .title {
+    border-bottom: 2px solid #f70 !important;
+    color: #f70 !important;
+}
+.show-info .title strong {
+    color: #f70 !important ;
+}
+.page-title {
+    background-color: #f6f6f6;
+    border: 1px solid #d9e3e5;
+    color: #f70 !important;
+}
+
+.forumlist h3 {
+   
+   background-color: #059d17 !important;
+   
+}
+
+.btn-default{
+    background-color: #059d17 !important;
+    color: #fff;
+   
+}
+
+#side-menu .current a, #side-menu .current a:hover {
+    
+    color: #fff;
+    background: #059d17 !important;
+}
+.select-container{
+	background:#31c27c !important;
+}
+
+.line-title {
+    border-bottom: 2px solid #059d17;
+   
+    color: #45b6f7;
+}
+
+.orange-href {
+   
+    background: #31c27c;
+    border: #31c27c 1px solid;
+   
+}
+
+.catebox .title {
+   
+     border-top: #31c27c 2px solid;
+   
+}

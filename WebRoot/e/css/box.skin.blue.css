@@ -1,0 +1,114 @@
+/**主题框颜色*/
+.box .title {
+    border-bottom: 3px solid #10aa9c !important;
+    color: #10aa9c;
+    background-color:White;
+
+}
+.comment-container {
+   
+    background-color: #10aa9c !important;
+}
+
+.register-btn {
+   
+    background: #10aa9c !important;
+   
+    text-shadow: 1px 1px 1px #10aa9c !important;
+   
+}
+
+.brief-title {
+  
+    border-bottom: 3px solid #3c8dbc !important;
+    color: #3c8dbc !important;
+}
+.index-toolbar{
+	background: #059d17 !important;
+    border-bottom: 2px solid #059d17;
+   
+}
+.system-site-title {
+	color:#059d17 !important;
+}
+
+.picture-list .title {
+    border-bottom: 2px solid #10aa9c !important;
+    color: #10aa9c !important;
+}
+.grid-box {
+    border-color: #059d17 #DDDDDD #DDDDDD !important;
+   
+}
+.grid-box .title {
+    border-bottom: 1px solid #059d17 !important;
+    color: #059d17 !important;
+   
+}
+
+.box .title strong
+{
+	/*color:#fff;
+	background-color:#3c8dbc;*/
+}
+.box .content
+{
+	background-color:White;
+}
+
+
+
+.blue-box .blue-box-title {
+    background: #3c8dbc;
+ }
+.show-info .title {
+    border-bottom: 2px solid #f70 !important;
+    color: #f70 !important;
+}
+.show-info .title strong {
+    color: #f70 !important ;
+}
+.page-title {
+    background-color: #f6f6f6;
+    border: 1px solid #d9e3e5;
+    color: #f70 !important;
+}
+
+.forumlist h3 {
+   
+   background-color: #059d17 !important;
+   
+}
+
+.btn-default{
+    background-color: #3082c7 !important;
+    color: #fff !important;
+   
+}
+
+#side-menu .current a, #side-menu .current a:hover {
+    
+    color: #fff;
+    background: #34a99f  !important;
+}
+.select-container{
+	background:#31c27c !important;
+}
+
+.line-title {
+    border-bottom: 2px solid #34a99f;
+    color: #34a99f;
+}
+
+.orange-href {
+   
+    background: #31c27c;
+    border: #31c27c 1px solid;
+   
+}
+
+.catebox .title {
+   
+     border-top: #31c27c 2px solid;
+   
+}
